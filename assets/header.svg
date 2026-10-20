@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<title id="title">Emmanuel Guevara Vásquez — Software Engineering student</title>
+<desc id="desc">Midnight blue banner with a circuit-inspired software emblem. ITESO, Guadalajara, México. Real problems. Thoughtful software.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#05070D"/><stop offset="1" stop-color="#111D35"/></linearGradient>
+  <radialGradient id="light"><stop stop-color="#2563EB" stop-opacity=".22"/><stop offset="1" stop-color="#2563EB" stop-opacity="0"/></radialGradient>
+  <linearGradient id="line"><stop stop-color="#2563EB"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#94A3B8" stroke-opacity=".055"/></pattern>
+</defs>
+<rect width="1200" height="440" rx="20" fill="url(#bg)"/>
+<rect x=".5" y=".5" width="1199" height="439" rx="19.5" fill="none" stroke="#263857"/>
+
+<rect x="672" y="1" width="527" height="438" rx="20" fill="url(#grid)"/>
+<ellipse cx="995" cy="220" rx="350" ry="280" fill="url(#light)"/>
+<path d="M38 50V387" stroke="url(#line)" stroke-width="3"/>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="2" fill="#38BDF8"><text x="68" y="65">EMMANUEL / DEVELOPER JOURNAL</text></g>
+<g font-family="Arial, Helvetica, sans-serif" fill="#E2E8F0" font-size="62" font-weight="700" letter-spacing="-2">
+<text x="65" y="149">Emmanuel</text><text x="65" y="218">Guevara Vásquez<tspan fill="#38BDF8">.</tspan></text></g>
+<text x="68" y="267" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="21">Software Engineering student</text>
+<text x="68" y="300" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="17">ITESO · Guadalajara, México</text>
+<text x="68" y="369" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="19">Real problems. Thoughtful software.</text>
+<g fill="none" stroke="#38BDF8" stroke-opacity=".38" stroke-width="1.5">
+<path d="M837 88h139l61 61v107l-61 61H837l-60-61V149Z"/>
+<path d="M857 119h99l48 48v71l-48 48h-99l-48-48v-71Z" stroke-opacity=".14"/>
+<path d="M976 88v-34h135M1037 202h100M976 317v65h135M777 202h-53"/>
+<circle cx="1137" cy="202" r="5" fill="#0B1120"/><circle cx="1111" cy="54" r="4" fill="#0B1120"/><circle cx="1111" cy="382" r="4" fill="#0B1120"/>
+</g>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="65" fill="#E2E8F0"><text x="829" y="225">&lt;<tspan fill="#38BDF8">/</tspan>&gt;</text></g>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#94A3B8"><text x="814" y="356">LEARN · BUILD · REFINE</text></g>
+<circle cx="777" cy="202" r="4" fill="#38BDF8"/>
+
+</svg>

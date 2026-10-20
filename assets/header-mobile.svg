@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+<title id="title">Emmanuel Guevara Vásquez — Software Engineering student</title>
+<desc id="desc">Mobile banner. ITESO, Guadalajara, México. Real problems. Thoughtful software.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#05070D"/><stop offset="1" stop-color="#111D35"/></linearGradient>
+  <radialGradient id="light"><stop stop-color="#2563EB" stop-opacity=".22"/><stop offset="1" stop-color="#2563EB" stop-opacity="0"/></radialGradient>
+  <linearGradient id="line"><stop stop-color="#2563EB"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#94A3B8" stroke-opacity=".055"/></pattern>
+</defs>
+<rect width="640" height="480" rx="20" fill="url(#bg)"/>
+<rect x=".5" y=".5" width="639" height="479" rx="19.5" fill="none" stroke="#263857"/>
+
+<rect x="1" y="1" width="638" height="478" rx="20" fill="url(#grid)"/>
+<ellipse cx="590" cy="55" rx="270" ry="270" fill="url(#light)"/>
+<path d="M30 42v394" stroke="url(#line)" stroke-width="3"/>
+<text x="55" y="65" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="2">EMMANUEL / DEVELOPER JOURNAL</text>
+<g font-family="Arial, Helvetica, sans-serif" fill="#E2E8F0" font-weight="700" font-size="58" letter-spacing="-2"><text x="52" y="155">Emmanuel</text><text x="52" y="222">Guevara Vásquez<tspan fill="#38BDF8">.</tspan></text></g>
+<text x="55" y="281" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="24">Software Engineering student</text>
+<text x="55" y="319" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="21">ITESO · Guadalajara, México</text>
+<path d="M55 354h72" stroke="url(#line)" stroke-width="2"/>
+<text x="55" y="394" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="23">Real problems.</text>
+<text x="55" y="428" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="23">Thoughtful software.</text>
+<text x="512" y="426" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="38">&lt;/&gt;</text>
+
+</svg>

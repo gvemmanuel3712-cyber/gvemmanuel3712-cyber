@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+<title id="title">Github</title>
+<desc id="desc">Github — custom typographic icon, not an official logo.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#05070D"/><stop offset="1" stop-color="#111D35"/></linearGradient>
+  <radialGradient id="light"><stop stop-color="#2563EB" stop-opacity=".22"/><stop offset="1" stop-color="#2563EB" stop-opacity="0"/></radialGradient>
+  <linearGradient id="line"><stop stop-color="#2563EB"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#94A3B8" stroke-opacity=".055"/></pattern>
+</defs>
+<rect width="64" height="64" rx="20" fill="url(#bg)"/>
+<rect x=".5" y=".5" width="63" height="63" rx="19.5" fill="none" stroke="#263857"/>
+<path d="M18 16h28" stroke="url(#line)" stroke-width="2"/><text x="32" y="43" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" font-weight="700" fill="#E2E8F0">GH</text>
+</svg>
