@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "account": "gvemmanuel3712-cyber",
-  "checkedAt": "2026-10-20T15:45:28+00:00",
+  "checkedAt": "2026-10-20T15:47:10+00:00",
   "source": "https://github.com/gvemmanuel3712-cyber",
   "calendarSource": "https://github.com/users/gvemmanuel3712-cyber/contributions",
   "visibility": "Unauthenticated, publicly visible GitHub profile. Contributions are events, not a commit count or a proficiency score.",
@@ -18,7 +18,7 @@
       "name": "gvemmanuel3712-cyber",
       "html_url": "https://github.com/gvemmanuel3712-cyber/gvemmanuel3712-cyber",
       "description": "Software Engineering student at ITESO · Personal projects, learning and practical automation.",
-      "language": null,
+      "language": "Python",
       "fork": false,
       "stargazers_count": 0
     },
