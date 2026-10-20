@@ -1,0 +1,32 @@
+name: Refresh public signals
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 8 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: public-signals
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'gvemmanuel3712-cyber/gvemmanuel3712-cyber'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - name: Verify calendar parser failure handling
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
+      - name: Read the unauthenticated public calendar
+        run: python3 scripts/sync_github.py
+      - name: Render original assets
+        run: python3 scripts/render_profile.py
+      - name: Commit only refreshed public data and generated assets
+        run: |
+          git add data/github.json assets/v2/
+          if git diff --cached --quiet; then exit 0; fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Refresh dated public GitHub signals'
+          git push origin HEAD:main
